@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.outer{
+    width: 320px;
+    background-color: rgb(24, 25, 26);
+    gap: 10px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    margin-left: 40%;
+}
+.outer>#no{
+    width:80% ;
+    height: 35px;
+}
+.outer>.row{
+    display: flex;
+ 
+    flex-direction: row;
+    width: 80%;
+}
+.outer>.row>button{
+    height: 45px;
+width: 60px;
+margin-right: 5px;
+}
+header>h3{
+    color: white;
+}
